@@ -1,0 +1,36 @@
+{
+  "name": "session-firewall",
+  "version": "0.1.0",
+  "description": "Local reverse proxy sandbox (banking mode) — open-source toolkit by zAx4hub.",
+  "type": "module",
+  "author": "zAx4hub <zAx4hub@users.noreply.github.com>",
+  "license": "MIT",
+  "bin": {
+    "session-firewall": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "demo": "tsx src/cli.ts demo",
+    "start": "tsx src/cli.ts",
+    "lint": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "zax4hub",
+    "session-firewall",
+    "opensource"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zAx4hub/session-firewall"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.10.5"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}

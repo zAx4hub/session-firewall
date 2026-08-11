@@ -1,0 +1,7 @@
+Session Firewall — 60s demo
+
+Pain: Local reverse proxy sandbox (banking mode)
+
+npm install && npm test && npm run demo
+
+Credits: zAx4hub

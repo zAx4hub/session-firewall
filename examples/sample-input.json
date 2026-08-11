@@ -1,0 +1,12 @@
+{
+  "mode": "banking",
+  "requests": [
+    {
+      "method": "GET",
+      "url": "https://paypal.com/home",
+      "headers": {
+        "cookie": "x=1"
+      }
+    }
+  ]
+}
